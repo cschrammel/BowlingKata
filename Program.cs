@@ -6,8 +6,8 @@ namespace BowlingKata
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadLine();
+            var game = new Game();
+            game.Roll(12);
         }
     }
 }
