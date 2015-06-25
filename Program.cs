@@ -8,6 +8,7 @@ namespace BowlingKata
         {
             var game = new Game();
             game.Roll(12);
-        }
+        } 
     }
-}
+} 
+ 
